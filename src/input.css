@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar-link {
+  @apply block py-2 border-b-2 border-transparent  hover:text-blue-400 hover:border-b-red-600;
+}
+
+.pagenation-link {
+  @apply block px-3 py-1 border border-gray-300 text-gray-500 hover:bg-gray-200 hover:text-gray-800;
+}
+
+.footer-link {
+  @apply block py-1 text-gray-500 underline-offset-4 decoration-gray-800 hover:underline;
+}
+
+.wrapper-h2 {
+  @apply text-2xl font-semibold text-gray-700 -mt-2 mb-4 hover:text-blue-500;
+}
+
+.wrapper-img {
+  @apply w-44 h-44 opacity-75 object-cover order-first;
+}
+
+.hero-img {
+  @apply absolute left-0 top-0 w-full h-full object-cover transition duration-300;
+}
+.hero-link {
+  @apply absolute left-0 top-0 w-full h-full;
+}

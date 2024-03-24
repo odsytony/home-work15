@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Logo</title>
+  <link rel="stylesheet" href="dist/output.css">
+</head>
+
+<body>
+  <div class="px-5">
+    <header class="flex items-center justify-between gap-10 border-b mb-10">
+      <a class="font-bold uppercase block text-red-500 py-4" href="">Site Logo</a>
+      <nav class="hidden md:block">
+        <ul class="flex gap-12 font-semibold text-gray-600">
+          <li><a class="navbar-link" href="">Home</a></li>
+          <li><a class="navbar-link" href="">About</a></li>
+          <li><a class="navbar-link" href="">Contact</a></li>
+          <li><a class="navbar-link" href="">News</a></li>
+        </ul>
+      </nav>
+      <button class="md:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-8 h-8">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </button>
+    </header>
+
+    <main>
+      <!--hero-->
+      <section class="flex gap-2 mb-14 flex-col lg:flex-row">
+        <h1 class="absolute top-14 text-2xl font-bold text-red-500">Lorem ipsum dolor</h1>
+        <article class="relative h-64 lg:h-96 lg:w-2/3 overflow-hidden">
+          <a class="hero-link group" href="">
+            <h2 class=" absolute  p-4 bottom-0 left-0 z-10 text-4xl font-semibold text-gray-100">Lorem ipsum dolor sit,
+            </h2>
+            <img class="hero-img group-hover:scale-110" src="img/1.jpeg" alt="laptop">
+            <div class="absolute left-0 top-0 w-full h-full bg-gradient-to-r from-red-500 via-transparent to-blue-800">
+            </div>
+          </a>
+        </article>
+        <article class="relative h-96 lg:w-1/3 overflow-hidden">
+          <a class="hero-link group" href="">
+            <h2 class=" absolute  p-4 bottom-0 left-0 z-10 text-4xl font-semibold text-gray-100">Lorem ipsum dolor sit
+            </h2>
+            <img class="hero-img group-hover:scale-110" src="img/2.jpeg" alt="img">
+            <div class="absolute left-0 top-0 w-full h-full bg-gradient-to-r from-red-500 via-transparent to-blue-800">
+            </div>
+          </a>
+        </article>
+      </section> <!--hero end-->
+
+      <section class="lg:flex gap-10"><!-- Flex-container -->
+
+        <!-- Articles -->
+        <section class="flex-grow basis-0">
+          <h2 class="text-4xl font-semibold text-gray-700 mb-10">Lorem ipsum dolor sit.</h2>
+
+          <!-- Article wrapper-->
+          <div class="mb-10">
+            <article class="mb-8">
+              <a class="flex gap-4" href="">
+                <div>
+                  <h2 class="wrapper-h2">Lorem ipsum dolor sit.</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, vero! Lorem ipsum dolor sit
+                    amet.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+                <img class="wrapper-img" src="img/3.jpeg" alt="office">
+              </a>
+            </article>
+
+            <article class="mb-8">
+              <a class="flex gap-4" href="">
+                <div>
+                  <h2 class="wrapper-h2">Doloribus voluptatum nemo nulla?</h2>
+                  <p>Dolorum recusandae quos repudiandae inventore incidunt mollitia ipsa consequuntur quasi?</p>
+                </div>
+                <img class="wrapper-img" src="img/4.jpeg" alt="office">
+              </a>
+            </article>
+
+            <article class="mb-8">
+              <a class="flex gap-4" href="">
+                <div>
+                  <h2 class="wrapper-h2">Sint voluptatum nemo ut?</h2>
+                  <p>Amet autem nam cupiditate non dolor itaque perferendis! Odio, earum?</p>
+                </div>
+                <img class="wrapper-img" src="img/5.png" alt="office">
+              </a>
+            </article>
+          </div><!-- Article wrapper end-->
+
+          <!-- Pagination -->
+          <div class="mb-10">
+            <ul class="flex justify-center">
+              <li><a class="pagenation-link rounded-l-md" href="">First</a></li>
+              <li><a class="pagenation-link" href="">Prev</a></li>
+              <li><a class="pagenation-link" href="">1</a></li>
+              <li><a class="pagenation-link" href="">2</a></li>
+              <li><a class="pagenation-link" href="">3</a></li>
+              <li><a class="pagenation-link" href="">4</a></li>
+              <li><a class="pagenation-link" href="">5</a></li>
+              <li><a class="pagenation-link" href="">Next</a></li>
+              <li><a class="pagenation-link rounded-r-md" href="">Last</a></li>
+            </ul>
+          </div><!-- Pagination end-->
+
+        </section><!-- Articles end-->
+
+        <!-- Form -->
+        <div class=" w-full lg:w-1/3">
+
+          <h4 class="font-bold text-lg text-gray-700 mb-5">Subscribe</h4>
+
+          <form class="w-full shadow-md p-5 rounded-md bg-slate-100">
+            <div class="mb-4">
+              <label class="block text-gray-800 mb-2" for="email">Subscrape ro our news</label>
+              <input class="border appearance-none w-full rounded py-3 px-4 text-gray-700 shadow-md focus:outline-none"
+                id="email" type="email" placeholder="Enter your email">
+            </div>
+            <div>
+              <button
+                class=" block px-6 py-3 font-medium leading-6 bg-blue-500 text-white rounded shadow-md hover:bg-blue-600 focus:outline-none"
+                type="submit">Submit</button>
+            </div>
+          </form>
+        </div><!-- Form end-->
+
+      </section><!-- Flex-container end-->
+
+    </main>
+
+    <footer class="border-t mt-10 py-10">
+      <div class="flex justify-evenly gap-10">
+        <div>
+          <h5 class="font-semibold text-gray-600 mb-4">About us</h5>
+          <ul>
+            <li><a class="footer-link" href="">About project</a></li>
+            <li><a class="footer-link" href="">Ourteam</a></li>
+            <li><a class="footer-link" href="">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5 class="font-semibold text-gray-600 mb-4">We are on social networks</h5>
+          <ul>
+            <li><a class="footer-link" href="">Facebook</a></li>
+            <li><a class="footer-link" href="">Instagram</a></li>
+            <li><a class="footer-link" href="">Telegram</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
